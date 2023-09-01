@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply w-full p-5;
+}
+
+.wraper {
+  @apply bg-white w-full p-2 flex justify-between mt-4;
+}
+
+.header-link {
+  @apply flex items-center;
+}

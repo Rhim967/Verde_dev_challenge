@@ -1,0 +1,28 @@
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #cfd1d4;
+}
+
+/*code {*/
+/*  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",*/
+/*    monospace;*/
+/*}*/
+/*@media (min-width: 768px) {*/
+/*  .gradient-avatar-border {*/
+/*    background: transparent;*/
+/*    padding: 1px;*/
+/*    background-image: linear-gradient(90deg, white, white),*/
+/*      linear-gradient(180deg, #fd5cf7, #900afe);*/
+/*    background-clip: padding-box, border-box;*/
+/*    background-origin: border-box;*/
+/*    border: 5px solid transparent;*/
+/*    border-radius: 50px;*/
+/*  }*/
+/*}*/
