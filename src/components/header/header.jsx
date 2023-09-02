@@ -19,7 +19,7 @@ export const Header = ({ authorized }) => {
   return (
     <div className="wraper">
       <div className="logo-box flex items-center">
-        <Link className="header-link text-sm" to="#">
+        <Link className="header-link text-sm" to="/">
           <img className="h-6" src={logo} alt=""></img>
           <h2 className="ml-2 font-bold">Arbit Blog</h2>
         </Link>
@@ -44,20 +44,18 @@ export const Header = ({ authorized }) => {
         <a href="#" className="header-link">
           <IconApps />
         </a>
-        <a href="#" className="header-link">
-          {!authorized ? (
-            <button onClick={onLoginTrigger}>Log in</button>
-          ) : (
-            <Link onClick={onLoginTrigger} to="/">
-              <img
-                className="w-7 h-7 rounded-full"
-                src={user}
-                alt="profile photo"
-              ></img>
-              logout
-            </Link>
-          )}
-        </a>
+        {!authorized ? (
+          <button onClick={onLoginTrigger}>Log in</button>
+        ) : (
+          <Link onClick={onLoginTrigger} to="/">
+            <img
+              className="w-7 h-7 rounded-full"
+              src={user}
+              alt="profile photo"
+            ></img>
+            logout
+          </Link>
+        )}
       </div>
     </div>
   );

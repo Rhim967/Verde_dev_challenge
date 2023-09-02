@@ -68,7 +68,7 @@ export const PostDetailPage = () => {
 
   return (
     <div className="wraper grid">
-      <div className="flex flex-col w-2/3">
+      <div className="flex flex-col w-full lg:w-2/3">
         {loader}
         {err}
         {postDetail && !loader && (
@@ -92,7 +92,7 @@ export const PostDetailPage = () => {
             </div>
 
             <form>
-              <div className="mt-1 ml-14">
+              <div className="mt-5 ml-2 lg:mt-1 lg:ml-14">
                 <div className="title-row w-full">
                   <p className="text-xs font-bold">Title</p>
                   <textarea

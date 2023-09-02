@@ -30,11 +30,11 @@ export const PostItem = ({ post }) => {
             hovered ? "border-2 border-sky-400" : ""
           }`}
         >
-          <h3 className="font-bold text-md">
+          <h3 className=" font-bold text-xs lg:text-lg md:text-md">
             {title.slice(0, 16) + (title.length > 15 ? " ..." : "")}
           </h3>
           <p
-            className={`mt-2 text-xs text-gray-500 ${
+            className={`mt-2  text-[10px] text-gray-500 sm:text-xs md:text-sm ${
               hovered ? "border-2 border-dashed border-sky-400" : ""
             }`}
           >

@@ -31,7 +31,7 @@ export const PostsList = () => {
 
   return (
     <div className="container">
-      <div className="box p-4 grid gap-x-8 gap-y-4 grid-cols-3">
+      <div className="box p-4 grid gap-x-8 gap-y-4  md:grid-cols-2 lg:grid-cols-3">
         {/*would be better if make it more readeble with variables )) but had no time)))*/}
         {loading ? (
           <h2>Loading ...</h2> // can paste any preloader component here
